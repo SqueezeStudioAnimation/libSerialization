@@ -74,11 +74,11 @@ class SampleTests(mayaunittest.TestCase):
         pynode_b = pymel.createNode('transform')
 
         old_instance = A()
-        old_instance.ex_int = 42
-        old_instance.ex_float = 3.14159
-        old_instance.ex_str = 'Hello World'
-        old_instance.ex_None = None
-        old_instance.ex_list_pynode = [None, pynode_a, None, pynode_b]
+        old_instance.ex_int = 42  # int
+        old_instance.ex_float = 3.14159  # float
+        old_instance.ex_str = 'Hello World'  # str
+        old_instance.ex_None = None  # None
+        old_instance.ex_list_pynode = [None, pynode_a, None, pynode_b]  # PyNode list containing None entries
 
         #
         # Ensure consistency when exporting to network
