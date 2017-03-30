@@ -1,6 +1,6 @@
 name = 'libSerialization'
 
-version = '0.1.1'
+version = '0.1.2'
 
 help = 'https://github.com/SqueezeStudioAnimation/libSerialization'
 
